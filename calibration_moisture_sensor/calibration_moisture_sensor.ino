@@ -36,7 +36,7 @@ void loop() {
         float point = 0;
           for (int sample = 0; sample < 10; sample++) {
             point = point + analogRead(sensorPin);
-            delay(10)
+            delay(10);
           }
 
         time[n] = millis();
